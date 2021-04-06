@@ -16,7 +16,6 @@ const S3 = new AWS.S3({});
                 LocationConstraint: 'ap-southeast-2'
             }
         };
-        console.log("foo")
         await S3.createBucket(params).promise()
     }
     catch (e) {
