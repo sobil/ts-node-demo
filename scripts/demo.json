@@ -1,0 +1,12 @@
+{
+   "scores": [
+      {
+         "name": "Bill",
+         "score": 1234
+      },
+      {
+         "name": "Ted",
+         "score": 5678
+      }
+   ]
+}
