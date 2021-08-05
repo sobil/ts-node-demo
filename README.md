@@ -20,6 +20,8 @@ Using `ts-node` will do runtime precompilation and just work
 
 ## Demo
 
+Deploying a static site into S3
+
 Authenticate to an AWS account in your parent shell
 
 ```
