@@ -7,7 +7,7 @@ const BUCKET_NAME: BucketName = 'myapp-20210406';
 const DIST_DIR = 'public'
 const S3 = new AWS.S3({});
 
-(async () => {
+export const deploy = async () => {
   try {
     const createParams: AWS.S3.CreateBucketRequest = {
       Bucket: BUCKET_NAME,
@@ -40,5 +40,6 @@ const S3 = new AWS.S3({});
       console.error(`Failed to upload ${file}: ${e.code}`)
     }
   })
-})()
+}
 
+deploy()

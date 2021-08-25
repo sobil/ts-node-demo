@@ -1,8 +1,0 @@
-{
-  "extends": "tsconfig-seek",
-  "include": ["**/*.ts"],
-  "compilerOptions": {
-    // Override certain options on a project-by-project basis.
-    "moduleResolution": "node"
-  }
-}

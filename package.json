@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "eslint": "^7.23.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "eslint": "^7.32.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "ts-node ./scripts/deploy.ts"
+    "deploy": "node --loader ts-node/esm ./scripts/deploy.ts"
   },
   "eslintConfig": {
     "extends": [],
@@ -42,10 +42,11 @@
   },
   "devDependencies": {
     "@types/aws-sdk": "^2.7.0",
-    "aws-sdk": "^2.880.0",
+    "@types/node": "^16.7.2",
+    "aws-sdk": "^2.976.0",
     "axios": "^0.21.1",
-    "ts-node": "^9.1.1",
+    "ts-node": "^10.2.1",
     "tsconfig-seek": "^1.0.2",
-    "typescript": "^4.2.3"
+    "typescript": "^4.3.5"
   }
 }
